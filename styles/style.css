@@ -1,0 +1,71 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Qwitcher+Grypen&display=swap');
+
+/* common styles or utilities*/
+ body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-left-section p{
+    margin-bottom: 30px;
+}
+#top-h3{
+    font-size:1.5em;
+    margin-left: 100px;
+}
+/* Navigation  */
+
+.top-nav{
+    margin:70px 100px 0px;
+}
+.top-nav li{
+    list-style: none;
+}
+.top-nav a{
+    color: black;
+    font-size: 16px;
+    float: right;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+/* Top Section */
+.flex-top-section{
+    display: flex;
+}
+.top-left-section{
+    width: 582px;
+    height: 270px;
+    margin: 100px 0px 0px 100px;
+}
+.top-left-button{
+    text-decoration:none;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 41px;
+    background-color: #E02C6D;
+    width: 196px;
+    height: 44px;
+    padding: 10px 24px;
+}
+.top-right-section{
+    width: 475px;
+    height: 475px;
+    margin: 50px 100px 70px 130px;
+}
+.top-right-section img{
+    width: 440px;
+    height: 414px;
+    margin: 30px 33px 31px 2px;
+}
+/* logos */
+.multiple-logo{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap:30px;
+    width: 1110px;
+    height: 110px;
+    margin-left: 100px;
+    margin-right: 100px;  
+    padding: 35;
+}
